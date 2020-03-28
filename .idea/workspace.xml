@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f1881805-f025-4be7-b5ce-e2ad11e78a05" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585426066744</updated>
-      <workItem from="1585426079404" duration="3217000" />
+      <workItem from="1585426079404" duration="3905000" />
     </task>
     <task id="LOCAL-00001" summary="Feature: Added Confidence Interval">
       <created>1585428908156</created>
@@ -68,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585428908156</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Feature: Added Confidence Interval">
+      <created>1585429881760</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585429881760</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,10 +91,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1585427532856" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1585428906686">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1585429880376">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585428906686" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585429880376" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1585427686749">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
