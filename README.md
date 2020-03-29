@@ -52,6 +52,8 @@ Calculating the right sample size is crucial to gaining accurate information! In
 
 ## How to find sample size given a Confidence Interval and Width (known population standard deviation)
 
+`Necessary Sample Size = (Z-score)2 * StdDev*(1-StdDev) / (margin of error)2`
+
 
 
 
