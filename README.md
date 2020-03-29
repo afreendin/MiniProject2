@@ -8,6 +8,9 @@ Example would be 25 employees chosen out of 250 employees out of a hat. The samp
 ## How we use random sampling
 `def sample_method`
 
+## Systematic sampling
+Systematic sampling is a type of probability sample method in which sample members from a large population are selected according to a random starting point but with a fixed, periodic interval. Example would be in a population of 100,000 people a system selects every 1000 person at certain intervals.
+
 ## Margin of Error
 Margin of error tells you how many percentage points your results will differ from the population value. 95% confidence interval with a 4 percent margin of error means that your statistic will be wtihin 4 percentage points of the real population value 95% of the time.  It will gave you the range of values below and above a sample statistic in a confidence interval.  
 
