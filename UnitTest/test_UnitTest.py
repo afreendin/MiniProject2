@@ -27,8 +27,8 @@ class MyTestCase(unittest.TestCase):
     #     self.assertIsInstance(self.createStat, DescriptiveStatisticsFunction)
 
     def test_mean_calculator(self):
-        created_mean = self.createStat.mean(self.val_int)
-        lib_mean = self.libStat.mean(self.val_int)
+        created_mean = self.createStat.self.mean(self.val_int)
+        lib_mean = self.libStat.self.mean(self.val_int)
         self.assertEqual(created_mean, lib_mean)
 
     def test_median_calculator(self):
