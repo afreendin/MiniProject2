@@ -6,7 +6,7 @@ import numpy as np
 
 class HelperFunctions:
 
-    result = 0
+    result = 0.0
 
     def __init__(self):
         pass
