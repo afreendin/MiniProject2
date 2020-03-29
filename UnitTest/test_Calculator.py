@@ -15,22 +15,22 @@ class MyTestCase(unittest.TestCase):
         pass
 
     def test_add(self):
-        self.assertEqual(self.Addition(10,20), 30.0)
+        self.assertEqual(self.addition(10,20), 30.0)
 
     def test_subtract(self):
-       self.assertEqual(self.Subtraction(30,10), 20.0)
+       self.assertEqual(self.subtraction(30,10), 20.0)
 
     def test_multiply(self):
-       self.assertEqual(self.Multiplication(3,2), 6.0)
+       self.assertEqual(self.multiplication(3,2), 6.0)
 
     def test_division(self):
-        self.assertEqual(self.Division(10,2), 5.0)
+        self.assertEqual(self.division(10,2), 5.0)
 
     def test_square(self):
-        self.assertEqual(self.Square(3), 9.0)
+        self.assertEqual(self.square(3), 9.0)
 
     def test_square_root(self):
-        self.assertEqual(self.Sqrt(9), 3.0)
+        self.assertEqual(self.sqrt(9), 3.0)
 
     # def test_instantiate_calculator(self):
     #     self.assertIsInstance(self.calc, HelperFunctions)
