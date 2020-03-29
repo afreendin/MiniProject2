@@ -14,8 +14,8 @@ class MyTestCase(unittest.TestCase):
     def setUp(self) -> None:
 
         self.val_int = random.sample(range(1,100), 10)
-        # self.libStat = HelperFunctions()
-        # self.createStat = DescriptiveStatisticsFunction()
+        self.libStat = HelperFunctions()
+        self.createStat = DescriptiveStatisticsFunction()
 
         self.mode_data = random.choices(range(10), k= 10)
         self.quartile_data = [10, 20, 30, 40, 50, 60, 70]
@@ -27,10 +27,8 @@ class MyTestCase(unittest.TestCase):
     #     self.assertIsInstance(self.createStat, DescriptiveStatisticsFunction)
 
     def test_mean_calculator(self):
-        # created_mean = self.createStat.mean(self.val_int)
-        # lib_mean = self.libStat.mean(self.val_int)
-        created_mean = HelperFunctions.mean(self.val_int)
-        lib_mean = DescriptiveStatisticsFunction.mean(self.val_int)
+        created_mean = self.createStat.mean(self.val_int)
+        lib_mean = self.libStat.mean(self.val_int)
         self.assertEqual(created_mean, lib_mean)
 
     def test_median_calculator(self):
