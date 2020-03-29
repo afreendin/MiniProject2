@@ -11,23 +11,11 @@ import unittest
 
 class MyTestCase(unittest.TestCase):
 
-    # def __init__(self):
-    #
-    #     self.val_int = random.sample(range(1,100), 10)
-    #     self.createStat = DescriptiveStatisticsFunction()
-    #     self.libStat = HelperFunctions()
-    #
-    #     self.mode_data = random.choices(range(10), k= 10)
-    #     self.quartile_data = [10, 20, 30, 40, 50, 60, 70]
-    #
-    #     self.datax = np.array(20*randn(10) + 100).tolist()
-    #     self.datay = self.datax + (10*randn(10) + 50)
-
     def setUp(self) -> None:
 
         self.val_int = random.sample(range(1,100), 10)
-        self.libStat = HelperFunctions()
-        self.createStat = DescriptiveStatisticsFunction()
+        # self.libStat = HelperFunctions()
+        # self.createStat = DescriptiveStatisticsFunction()
 
         self.mode_data = random.choices(range(10), k= 10)
         self.quartile_data = [10, 20, 30, 40, 50, 60, 70]
@@ -35,12 +23,14 @@ class MyTestCase(unittest.TestCase):
         self.datax = np.array(20*randn(10) + 100).tolist()
         self.datay = self.datax + (10*randn(10) + 50)
 
-    def test_instantiate_calculator(self):
-        self.assertIsInstance(self.createStat, DescriptiveStatisticsFunction)
+    # def test_instantiate_calculator(self):
+    #     self.assertIsInstance(self.createStat, DescriptiveStatisticsFunction)
 
     def test_mean_calculator(self):
-        created_mean = self.createStat.mean(self.val_int)
-        lib_mean = self.libStat.mean(self.val_int)
+        # created_mean = self.createStat.mean(self.val_int)
+        # lib_mean = self.libStat.mean(self.val_int)
+        created_mean = HelperFunctions.mean(self.val_int)
+        lib_mean = DescriptiveStatisticsFunction.mean(self.val_int)
         self.assertEqual(created_mean, lib_mean)
 
     def test_median_calculator(self):
