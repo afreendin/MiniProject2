@@ -7,10 +7,9 @@ import numpy as np
 
 class DescriptiveStatisticsFunction:
 
-    result = 0.0
-
     def __init__(self):
         self.calc = HelperFunctions
+        self.result = 0.0
         pass
 
     def mean(self, data):
