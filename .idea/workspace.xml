@@ -1,16 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+
+    <list default="true" id="f1881805-f025-4be7-b5ce-e2ad11e78a05" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+=======
     <list default="true" id="98888b6e-a8dd-4edf-9728-f4aba67ddf45" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitTest/test_UnitTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTest/test_UnitTest.py" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+=======
+  <component name="Git.Settings">
+
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Zdmfuzhp1ZKA2qsYz247Qu2SY0" />
@@ -24,14 +45,55 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Calculator" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Wismy\MiniProject2\Calculator" />
+    </key>
+  </component>
+=======
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+
+      <changelist id="f1881805-f025-4be7-b5ce-e2ad11e78a05" name="Default Changelist" comment="" />
+      <created>1585426066744</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585426066744</updated>
+      <workItem from="1585426079404" duration="6171000" />
+    </task>
+    <task id="LOCAL-00001" summary="Feature: Added Confidence Interval">
+      <created>1585428908156</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585428908156</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Feature: Added Confidence Interval">
+      <created>1585429881760</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585429881760</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+=======
       <changelist id="98888b6e-a8dd-4edf-9728-f4aba67ddf45" name="Default Changelist" comment="" />
       <created>1585497020846</created>
       <option name="number" value="Default" />
@@ -89,12 +151,35 @@
       <updated>1585502514500</updated>
     </task>
     <option name="localTasksCounter" value="8" />
+
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+
+    <MESSAGE value="Feature: Added Confidence Interval" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature: Added Confidence Interval" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585427532856">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1585427532856" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1585429880376">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585429880376" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1585427686749">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585427686749" />
+    <state x="399" y="155" key="git4idea.merge.GitPullDialog" timestamp="1585427726679">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="399" y="155" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1585427726679" />
+=======
     <MESSAGE value="Corrected travis file name" />
     <MESSAGE value="Corrected travis file" />
     <MESSAGE value="created requirements file" />
@@ -118,5 +203,6 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585502525372" />
+
   </component>
 </project>
