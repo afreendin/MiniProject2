@@ -9,7 +9,7 @@ class DescriptiveStatisticsFunction:
     result = 0.0
 
     def __init__(self):
-        self.calc = HelperFunctions()
+        self.calc = HelperFunctions
 
     def mean(self, data):
         total = 0.0
