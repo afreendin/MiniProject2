@@ -5,17 +5,25 @@ import statistics as stat
 import numpy as np
 
 
-class DescriptiveStatisticsFunction:
+class DescriptiveStatisticsFunction(HelperFunctions):
     result = 0.0
 
-    def __init__(self):
-        self.calc = HelperFunctions
+    # def __init__(self):
+    #     self.calc = HelperFunctions
+
+    # def mean(self, data):
+    #     total = 0.0
+    #     for k in range(len(data)):
+    #         total = self.calc.add(total, data[k])
+    #         self.result = self.calc.division(total, len(data))
+    #
+    #     return "{0:.2f}".format(round(self.result,2))
 
     def mean(self, data):
         total = 0.0
         for k in range(len(data)):
-            total = self.calc.add(total, data[k])
-            self.result = self.calc.division(total, len(data))
+            total = self.add(total, data[k])
+            self.result = self.division(total, len(data))
 
         return "{0:.2f}".format(round(self.result,2))
 
