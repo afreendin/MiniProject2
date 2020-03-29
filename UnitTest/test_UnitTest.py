@@ -11,7 +11,7 @@ import unittest
 
 class MyTestCase(unittest.TestCase):
 
-    def __init__(self) -> None:
+    def __init__(self):
 
         self.val_int = random.sample(range(1,100), 10)
         self.createStat = DescriptiveStatisticsFunction()

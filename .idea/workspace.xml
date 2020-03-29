@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98888b6e-a8dd-4edf-9728-f4aba67ddf45" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitTest/test_UnitTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTest/test_UnitTest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +35,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585497020846</updated>
-      <workItem from="1585497029354" duration="2393000" />
+      <workItem from="1585497029354" duration="2457000" />
     </task>
     <task id="LOCAL-00001" summary="Corrected travis file name">
       <created>1585497537702</created>
@@ -59,7 +58,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585498999587</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Changed UnitTest file">
+      <created>1585499809429</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585499809429</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,17 +75,18 @@
     <MESSAGE value="Corrected travis file name" />
     <MESSAGE value="Corrected travis file" />
     <MESSAGE value="created requirements file" />
-    <option name="LAST_COMMIT_MESSAGE" value="created requirements file" />
+    <MESSAGE value="Changed UnitTest file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed UnitTest file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585497091154">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1585497091154" />
-    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1585498997648">
+    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1585499806935">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585498997648" />
+    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585499806935" />
     <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1585499012668">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
