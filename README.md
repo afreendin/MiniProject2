@@ -3,6 +3,11 @@
 ## Simple random sampling
 The best way to describe simple random sampling is a subset of a statistical population in which each member of the subset has an equal probability of being chosen.  A simple random sampe is meant to be an unbiased representation of a group.
 
+Example would be 25 employees chosen out of 250 employees out of a hat. The sample is random because each employee has a chance of being chosen.
+
+## How we use random sampling
+`def sample_method`
+
 ## Margin of Error
 Margin of error tells you how many percentage points your results will differ from the population value. 95% confidence interval with a 4 percent margin of error means that your statistic will be wtihin 4 percentage points of the real population value 95% of the time.  It will gave you the range of values below and above a sample statistic in a confidence interval.  
 
@@ -21,8 +26,8 @@ Cochran formula allows you to calculate an ideal sample size given a desired lev
 
 
 ## Sources
-Google
-Investopedia
-Wikipedia
-Youtube
+* [Google] (https://www.Google.com)
+* [Investopedia] (https://investopedia.com)
+* [Wikipedia] (https://www.wikipedia.org)
+* [Youtube] (https://www.youtube.com)
 
