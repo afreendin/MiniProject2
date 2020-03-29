@@ -1,13 +1,15 @@
-
-
-
-
-
+from Calculator.Addition import addition
+from Calculator.Subtraction import subtraction
+from Calculator.Division import division
+from Calculator.Multiplication import multiplication
+from Calculator.Sqrt import root
+from DescriptiveStatisticsFunction.DescriptiveStatisticsFunction import mean
+from DescriptiveStatisticsFunction.DescriptiveStatisticsFunction import standard_deviation
 
 
 def confidenceinterval(lst, conf):
     x = mean(lst)
-    std = st_dev(lst)
+    std = standard_deviation(lst)
     if conf == 95:
         t = 1.96
     elif conf == 90:

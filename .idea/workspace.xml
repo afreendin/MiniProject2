@@ -3,12 +3,16 @@
   <component name="ChangeListManager">
 
     <list default="true" id="f1881805-f025-4be7-b5ce-e2ad11e78a05" name="Default Changelist" comment="">
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
 =======
     <list default="true" id="98888b6e-a8dd-4edf-9728-f4aba67ddf45" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitTest/test_UnitTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTest/test_UnitTest.py" afterDir="false" />
 
+>>>>>>> e67804ebc08025cfb766b83552e2bd90e0c1db21
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585426066744</updated>
-      <workItem from="1585426079404" duration="6171000" />
+      <workItem from="1585426079404" duration="6200000" />
     </task>
     <task id="LOCAL-00001" summary="Feature: Added Confidence Interval">
       <created>1585428908156</created>
