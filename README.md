@@ -27,6 +27,33 @@ Cochran formula allows you to calculate an ideal sample size given a desired lev
 
 ![Cochran](cochran.jpeg)
 
+**Where:**
+
+e is the desired level of precision (i.e. the margin of error),
+p is the (estimated) proportion of the population which has the attribute in question,
+q is 1 – p.
+The z-value is found in a Z table.
+
+## How to find the right sample size
+Calculating the right sample size is crucial to gaining accurate information! In fact, your survey’s confidence level and margin of error almost solely depends on the number of responses you received.
+
+`Sample Size = (Distribution of 50%) / ((Margin of Error% / Confidence Level Score)Squared)`
+
+## How to find a sample size given a confidence Interval and Width (unkown population standard deviation):
+**Population size:** The total number of people in the group you are trying to study. If you were taking a random sample of people across the U.S., then your population size would be about 317 million. Similarly, if you are surveying your company, the size of the population is the total number of employees.
+
+**Margin of error:** A percentage that tells you how much you can expect your survey results to reflect the views of the overall population. The smaller the margin of error, the closer you are to having the exact answer at a given confidence level.
+
+**Sampling confidence level:** A percentage that reveals how confident you can be that the population would select an answer within a certain range. For example, a 95% confidence level means that you can be 95% certain the results lie between x and y numbers.
+
+![SampleSize](samplesize.PNG)
+
+
+
+## How to find sample size given a Confidence Interval and Width (known population standard deviation)
+
+
+
 
 ## Sources
 * [Google] (https://www.Google.com)

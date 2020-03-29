@@ -7,7 +7,6 @@ from DescriptiveStatisticsFunction.DescriptiveStatisticsFunction import mean
 from DescriptiveStatisticsFunction.DescriptiveStatisticsFunction import standard_deviation
 
 
-
 def confidenceinterval(lst, conf):
     x = mean(lst)
     std = standard_deviation(lst)
