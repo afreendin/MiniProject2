@@ -11,19 +11,7 @@ import unittest
 
 class MyTestCase(unittest.TestCase):
 
-    def __init__(self):
-
-        self.val_int = random.sample(range(1,100), 10)
-        self.createStat = DescriptiveStatisticsFunction()
-        self.libStat = HelperFunctions()
-
-        self.mode_data = random.choices(range(10), k= 10)
-        self.quartile_data = [10, 20, 30, 40, 50, 60, 70]
-
-        self.datax = np.array(20*randn(10) + 100).tolist()
-        self.datay = self.datax + (10*randn(10) + 50)
-
-    # def setUp(self) -> None:
+    # def __init__(self):
     #
     #     self.val_int = random.sample(range(1,100), 10)
     #     self.createStat = DescriptiveStatisticsFunction()
@@ -34,6 +22,18 @@ class MyTestCase(unittest.TestCase):
     #
     #     self.datax = np.array(20*randn(10) + 100).tolist()
     #     self.datay = self.datax + (10*randn(10) + 50)
+
+    def setUp(self) -> None:
+
+        self.val_int = random.sample(range(1,100), 10)
+        self.libStat = HelperFunctions()
+        self.createStat = DescriptiveStatisticsFunction()
+
+        self.mode_data = random.choices(range(10), k= 10)
+        self.quartile_data = [10, 20, 30, 40, 50, 60, 70]
+
+        self.datax = np.array(20*randn(10) + 100).tolist()
+        self.datay = self.datax + (10*randn(10) + 50)
 
     def test_instantiate_calculator(self):
         self.assertIsInstance(self.createStat, DescriptiveStatisticsFunction)
