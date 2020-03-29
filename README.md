@@ -1,5 +1,8 @@
 # MiniProject2
 
+## Simple random sampling
+The best way to describe simple random sampling is a subset of a statistical population in which each member of the subset has an equal probability of being chosen.  A simple random sampe is meant to be an unbiased representation of a group.
+
 ## Margin of Error
 Margin of error tells you how many percentage points your results will differ from the population value. 95% confidence interval with a 4 percent margin of error means that your statistic will be wtihin 4 percentage points of the real population value 95% of the time.  It will gave you the range of values below and above a sample statistic in a confidence interval.  
 
@@ -12,7 +15,7 @@ Confidence interval is the way to show what the uncertainty is with a certain st
 For our calculator we used `def confidenceinterval` 
 
 ## Cochran's Sample Size Formula
-Cochran formula allows you to calculate an ideal sample size given a desired level of precision, desires confidence level, and the estimated proportion of the attribute present in the population. Apporpriate for situations with large populations. A sampe size provides more information about a samller population than a large one, so there's a 'correction' through which the number given by Cochran's formula can be reduced if teh whole population is small.
+Cochran formula allows you to calculate an ideal sample size given a desired level of precision, desires confidence level, and the estimated proportion of the attribute present in the population. Apporpriate for situations with large populations. A sampe size provides more information about a samller population than a large one, so there's a 'correction' through which the number given by Cochran's formula can be reduced if the whole population is small.
 
 ![Cochran](cochran.jpeg)
 
