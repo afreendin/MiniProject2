@@ -35,7 +35,7 @@ class MyTestCase(unittest.TestCase):
 
     def setUp(self) -> None:
 
-        self.val_int = random.sample(range(1,100), 10)
+        self.val_int = random.sample(range(1,100), 13)
         # self.libStat = HelperFunctions
         # self.createStat = DescriptiveStatisticsFunction
 
